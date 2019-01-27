@@ -1,0 +1,14 @@
+{
+  "name": "react-tstore",
+  "version": "0.0.1",
+  "description": "Tiny store utilizing React's Context API for React-based application",
+  "main": "src/index.js",
+  "repository": "git@github.com:sorcal/react-tstore.git",
+  "author": "Alexey Frolov <gsorcal@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0"
+  }
+}
