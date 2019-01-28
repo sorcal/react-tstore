@@ -2,13 +2,25 @@
   "name": "react-tstore",
   "version": "0.0.1",
   "description": "Tiny store utilizing React's Context API for React-based application",
-  "main": "src/index.js",
+  "main": "./lib/index.js",
   "repository": "git@github.com:sorcal/react-tstore.git",
   "author": "Alexey Frolov <gsorcal@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "babel src -d lib"
+  },
   "dependencies": {
+    "@babel/runtime": "^7.3.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0"
   }
 }
